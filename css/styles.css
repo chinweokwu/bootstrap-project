@@ -22,8 +22,8 @@ img {
 }
 
 .subscribe{
-  width: 130px;
-  height: 25px
+  padding:5px;
+  vertical-align: middle;
 }
 
 .nav-brand-big {
@@ -36,9 +36,9 @@ img {
 
 .search-form {
   border: none;
-  width: 80px;
+  width: 85px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 #extention::before {
@@ -53,34 +53,41 @@ img {
   border-top: 13px solid #f72210;
 }
 
-.nav-link {
-  
-  font-weight: 750;
-  border: 1px solid lightgray;
- border-left:none;
- border-top:none;
-border-bottom:none;
-  padding-left: 8px;
-  padding-right: 8px;
-  height:  20px;
-  
-}
-
 nav li {
-  height: 60px
+  height: 60px;
+  -webkit-flex-grow: 1;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: -10px;
 }
+
 nav li a {
-  margin: 0;
-    padding: 0;
-   
+   margin-top: 15px;
+    border-left: 1px solid lightgrey;
+    border-left-style: solid;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+    color:black;
+    padding-top: 5px;
 }
 
-
-main {
-  background:  white;
+nav li a:hover {
+  color:red;
+  text-decoration: none;
 }
 
 .us-a {
   border-left: none; 
 }
 
+.nav-item{
+  margin:0;
+  padding: 0;
+}
+
+.a {
+  flex-grow: 1;
+  text-align: center;
+}
