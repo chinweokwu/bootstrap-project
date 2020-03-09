@@ -91,3 +91,37 @@ nav li a:hover {
   flex-grow: 1;
   text-align: center;
 }
+
+.opinion-img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-p{
+  font-weight: bold;
+}
+
+.card{
+  border: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.more-stories, .opinion {
+  border-bottom: 1px solid lightgrey;
+}
+
+.story-card {
+  border-bottom: 1px solid lightgrey;
+ 
+}
+
+.lazysize {
+  width: 210px
+}
+
+.culture-text {
+  color: #272727;
+}
