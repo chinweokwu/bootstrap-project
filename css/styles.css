@@ -109,7 +109,7 @@ nav li a:hover {
   width: 100%;
 }
 
-.more-stories, .opinion {
+.more-stories, .opinion, .latest {
   border-bottom: 1px solid lightgrey;
 }
 
@@ -124,4 +124,20 @@ nav li a:hover {
 
 .culture-text {
   color: #272727;
+}
+
+.debate {
+  width: 70px;
+}
+
+.pp {
+  border-bottom: none;
+}
+
+.debates {
+  border-top: 4px solid red;
+}
+
+.debate-blue {
+  border-top: 4px solid blue;
 }
