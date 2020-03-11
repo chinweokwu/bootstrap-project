@@ -109,21 +109,21 @@ nav li a:hover {
   width: 100%;
 }
 
-.more-stories, .opinion, .latest {
+.more-stories, .opinion, .latest, .story-card{
   border-bottom: 1px solid lightgrey;
 }
 
-.story-card {
-  border-bottom: 1px solid lightgrey;
- 
+.latest-bottom {
+  border-bottom: none;
 }
 
 .lazysize {
-  width: 210px
+  width: 100px
 }
 
 .culture-text {
   color: #272727;
+  font-size: 27px;
 }
 
 .debate {
@@ -140,4 +140,82 @@ nav li a:hover {
 
 .debate-blue {
   border-top: 4px solid blue;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height:500px;
+}
+
+.stickyy {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height:00px;
+}
+.icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.news-letter {
+  background: #f4f5f6;
+  height: 200px;
+  width: 350px;
+}
+
+.para {
+  width: 200px;
+}
+
+.signup {
+width: 130px;
+background: #666666;
+color: white;
+}
+
+.more {
+  border-bottom: none;
+}
+
+.world{
+  position: absolute;
+  background:white;
+  background-position: 0 0;
+  top:0;
+ 
+}
+
+.magazine {
+  border-bottom: 1px solid grey; 
+}
+
+/* .magazine-footer {
+  height: 20px;
+} */
+
+.cover {
+width:80px;
+border:0;
+font-size: 20px;
+}
+
+.b-cover {
+  color: white;
+  background: #f72210;
+}
+
+.cover-img {
+  height: 330px;
+ 
+}
+
+.culture{
+  color: #f72210;
 }
