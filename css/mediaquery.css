@@ -1,65 +1,67 @@
-@media screen and (min-width: 1485px){
-.a {
+@media screen and (min-width: 1485px) {
+  .a {
     text-align: center;
     border-left-width: 1px;
   }
 
-nav li a {
-  margin-top: 15px;
-  height:  30px;
-  padding-left: 20px;
-  padding-right:20px;
- }
+  nav li a {
+    margin-top: 15px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
-@media screen and (min-width: 1375px) and (max-width: 1484px){
+@media screen and (min-width: 1375px) and (max-width: 1484px) {
   nav li {
-   -webkit-flex-grow: 1;
+    -webkit-flex-grow: 1;
     flex-grow: 1;
     text-align: center;
   }
+
   nav li a {
     margin-top: 15px;
-    height:  30px;
+    height: 30px;
     padding-left: 18px;
-    padding-right:18px;
+    padding-right: 18px;
   }
 }
 
-@media screen and (min-width: 1265px) and (max-width: 1374px){
+@media screen and (min-width: 1265px) and (max-width: 1374px) {
   nav li a {
     margin-top: 15px;
-    height:  30px;
+    height: 30px;
     padding-left: 13px;
-    padding-right:13px;
+    padding-right: 13px;
   }
 }
 
-@media screen and (min-width: 1155px) and (max-width: 1264px){
+@media screen and (min-width: 1155px) and (max-width: 1264px) {
   nav li a {
     margin-top: 15px;
     height: 30px;
     padding-left: 8px;
     padding-right: 8px;
-  }  
+  }
 }
 
-@media screen and (min-width: 893px) and (max-width: 1154px){
+@media screen and (min-width: 893px) and (max-width: 1154px) {
   nav li a {
     margin-top: 15px;
     height: 30px;
     padding-left: 0;
     padding-right: 0;
   }
+
   .soic {
     border-right: none;
-    border-left: none; 
+    border-left: none;
   }
 }
 
 @media screen and (max-width: 893px) {
   .soic {
     border-right: none;
-    border-left: none; 
+    border-left: none;
   }
 }
