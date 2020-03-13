@@ -7,6 +7,7 @@
 body {
   background: #f4f5f7;
   overflow-x:none;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 header{
@@ -252,4 +253,43 @@ background-size: cover;
 
 .sides {
   border: 1px solid lightgrey;
+}
+
+.start-text {
+font-size: 15px;
+}
+
+
+
+.news {
+  width: 200px;
+  height: 50px;
+}
+
+.socials {
+  margin-top:65px;
+}
+
+.news-date {
+  margin-top: 75px;
+}
+
+.socials-border {
+  border-bottom: 1px solid lightgrey; 
+}
+
+.soic {
+  border-right:1px solid lightgrey;
+}
+
+.no-socials {
+  border-right: none;
+}
+
+li{
+  list-style: none;
+}
+
+.media-title, .card-title {
+  font-weight:bold;
 }

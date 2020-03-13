@@ -22,7 +22,6 @@ nav li {
 nav li a {
   margin-top: 15px;
    height:  30px;
-   
    padding-left: 18px;
    padding-right:18px;
 }
@@ -44,6 +43,7 @@ nav li a {
      padding-left: 8px;
      padding-right: 8px;
   }
+  
 }
 
 @media screen and (min-width: 893px) and (max-width: 1154px){
@@ -54,5 +54,16 @@ nav li a {
      padding-right:0;
   }
   
+  .soic {
+    border-right: none;
+    border-left: none; 
+  }
 }
 
+
+@media screen and (max-width: 893px) {
+  .soic {
+    border-right: none;
+    border-left: none; 
+  }
+}
