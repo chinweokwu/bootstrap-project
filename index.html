@@ -32,47 +32,29 @@
       <a href="#" class="text-white">SIGN IN</a>
       <button class="btn bg-white text-danger subscribe ml-md-2" type="button">SUBSCRIBE</button>
     </div>
-    <button class="navbar-toggler ml-3" data-target="#navNavbar" data-toggle="collapse">
-      <span><i class="fas fa-bars bar"></i></span>
-    </button>
+    <div class="down-drop">
+      <button class="navbar-toggler ml-3" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false"">
+      <span><i class=" fas fa-bars bar"></i></span>
+      </button>
+      <div class=" dropdown-menu" id="navNavbar" aria-labelledby="dropdownMenuButton">
+        <ul class="navbar-nav mr-auto nava">
+        <li><a href="#" class=" text-dark dropdown-item">US</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">World</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Business</a></li>
+        <li><a href="#" class="  text-dark dropdown-item">Tech & Science</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Culture</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Newsgreek</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Sport</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Health</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">The Debate</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Vantage</a></li>
+        <li><a href="#" class=" text-dark dropdown-item">Weather</a></li>
+      </div>
+    </div>
+  </ul>
   </header>
-  <div class="collapse navbar-collapse d-lg-none" id="navNavbar">
-    <ul class="navbar-nav ml-auto collapses bg-white w-50">
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark ">US</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark active">World</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark">Business</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class=" nav-link text-dark">Tech & Science</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark">Culture</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark">Newsgreek</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark">Sport</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark">Health</a>
-      </li>
-      <li class="nav-item debate">
-        <a href="#" class="nav-link text-dark">The Debate</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark">Vantage</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark ">Weather</a>
-      </li>
-    </ul>
-  </div>
+
 
   <nav class=" nav d-none d-lg-block bg-white">
     <div class="col-sm-12 d-none d-lg-block" id="extention"></div>
@@ -116,7 +98,6 @@
   <main class=" container-fluid px-auto">
     <div class="row d-flex mt-1  pl-lg-4 pr-lg-4 bg-white">
       <div class="col-12 col-lg-3 col-md-6">
-        <div class=" col-12">
           <h5 class="text-muted mt-3">FEATURED STORIES</h5>
           <div class="card story-card mt-3">
             <img
@@ -165,12 +146,12 @@
               Trump Says Sanders Would Be A 'Tougher' Opponent Than Frontrunner Joe Biden
             </div>
           </div>
-          <div class="card story-card mt-4">
+          <div class="card story-card mt-4 sticky-top">
             <img
               src="https://d.newsweek.com/en/full/1571844/bernie-sanders-joe-biden-missouri-primary-poll.jpg?w=397&amp;h=265&amp;l=49&amp;t=34&amp;q=90&amp;f=7b3fdc0e203af4625a2cc7333316e9c1"
               alt="Bernie Sanders Joe Biden Missouri primary poll"
               title="Bernie Sanders Joe Biden Missouri primary poll" class="mapping-sm_md card-img-top img-fluid">
-            <div class="card-body p-0">
+            <div class=" card-body p-0">
               <h5 class="card-title font-weight-bold pt-2">
                 Biden's Missouri Lead Over Sanders Fueled by Over-50s and Non-Whites: Poll
               </h5>
@@ -181,7 +162,7 @@
               Trump Says Sanders Would Be A 'Tougher' Opponent Than Frontrunner Joe Biden
             </div>
           </div>
-        </div>
+        
       </div>
 
 
@@ -224,7 +205,7 @@
                     least—to witness the dazzling display of luminous balls of gas that we call stars</p>
                 </div>
               </div>
-              <div class="card w-100 travel">
+              <div class="card w-100 travel sticky-top">
                 <img src="images/deck_img.jpg" alt="CUL_Uncharted_Stargazing_Banner"
                   class="mapping-mobile lazy lazyloaded img-fluid w-100">
                 <div class="card-body pl-0">
@@ -281,6 +262,17 @@
               </p>
             </div>
           </div>
+          <div class="media mt-3 more-stories">
+              <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
+  
+              <div class="media-body">
+                <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
+                <p>
+                  Scientists studied the viral DNA from 103 people infected with the virus that has killed over 3,000
+                  people worldwide.
+                </p>
+              </div>
+            </div>
           <div class="media mt-3 more-stories">
             <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded d-flex mr-3" alt="newsweek-img">
 
@@ -676,8 +668,7 @@
       </div>
       <div class="col-lg-3 col-md-6 col-sm-12 col-xm-12 w-100">
         <div class="card mt-5 w-100 ">
-          <img class="img-fluid w-100" src="images/corono.jpg"
-          alt="newsweek-img">
+          <img class="img-fluid w-100" src="images/corono.jpg" alt="newsweek-img">
           <div class="card-body pl-0 ">
             <div class="card-title">
               <h4>Easing of Coronavirus Quarantine Measures in Sacramento Leaves Experts Torn</h4>
@@ -939,8 +930,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 w-100">
         <div class="media more-stories pb-3">
-          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3"
-          alt="newsweek-img">
+          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
 
           <div class="media-body">
             <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
@@ -948,8 +938,7 @@
           </div>
         </div>
         <div class="media mt-3 more-stories pb-3">
-          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3"
-          alt="newsweek-img">
+          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
 
           <div class="media-body">
             <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
@@ -957,8 +946,7 @@
           </div>
         </div>
         <div class="media mt-3 more-stories side  pb-3">
-          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3"
-          alt="newsweek-img">
+          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
 
           <div class="media-body">
             <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
@@ -1004,8 +992,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 w-100">
         <div class="media more-stories pb-3">
-          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3"
-          alt="newsweek-img">
+          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
 
           <div class="media-body">
             <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
@@ -1129,8 +1116,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 w-100">
         <div class="media more-stories pb-3">
-          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3"
-          alt="newsweek-img">
+          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
 
           <div class="media-body">
             <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
@@ -1138,8 +1124,7 @@
           </div>
         </div>
         <div class="media mt-3 more-stories pb-3">
-          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3"
-          alt="newsweek-img">
+          <img src="images/deck_img.jpg" class="mapping-small lazysize lazyloaded mr-3" alt="newsweek-img">
 
           <div class="media-body">
             <h5 class="media-title">More Aggressive' Coronavirus Strain May Have Evolved—But Don't Worry</h5>
@@ -1167,7 +1152,8 @@
       <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 w-100 d-flex">
         <div class="card w-100 ">
           <img class="img-fluid w-100"
-            src="https://d.newsweek.com/en/full/1554087/picard-borg-star-trek.jpg?w=397&amp;h=265&amp;l=53&amp;t=40&amp;f=b7aa7af6b7b7528e43935a494d01dd31" alt="newsweek-img">
+            src="https://d.newsweek.com/en/full/1554087/picard-borg-star-trek.jpg?w=397&amp;h=265&amp;l=53&amp;t=40&amp;f=b7aa7af6b7b7528e43935a494d01dd31"
+            alt="newsweek-img">
           <div class="card-body pl-0 ">
             <div class="card-title">
               <h5 class="font-weight-bold">Easing of Coronavirus Quarantine Measures in Sacramento Leaves Experts Torn
