@@ -6,7 +6,6 @@
 
 body {
   background: #f4f5f7;
-  overflow-x:none;
   font-family: Arial,Helvetica,sans-serif;
 }
 
@@ -57,21 +56,21 @@ img {
 nav li {
   height: 60px;
   -webkit-flex-grow: 1;
-    flex-grow: 1;
-    text-align: center;
-    margin-left: -10px;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: -10px;
 }
 
 nav li a {
-   margin-top: 15px;
-    border-left: 1px solid lightgrey;
-    border-left-style: solid;
-    font-size: 19px;
-    line-height: 20px;
-    font-weight: bold;
-    font-family: "Roboto Condensed",sans-serif;
-    color:black;
-    padding-top: 5px;
+  margin-top: 15px;
+  border-left: 1px solid lightgrey;
+  border-left-style: solid;
+  font-size: 19px;
+  line-height: 20px;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+  color: black;
+  padding-top: 5px;
 }
 
 nav li a:hover {
@@ -83,8 +82,8 @@ nav li a:hover {
   border-left: none; 
 }
 
-.nav-item{
-  margin:0;
+.nav-item {
+  margin: 0;
   padding: 0;
 }
 
@@ -98,11 +97,11 @@ nav li a:hover {
   height: 63px;
 }
 
-.opinion-p{
+.opinion-p {
   font-weight: bold;
 }
 
-.card{
+.card {
   border: none;
 }
 
@@ -110,7 +109,10 @@ nav li a:hover {
   width: 100%;
 }
 
-.more-stories, .opinion, .latest, .story-card{
+.more-stories,
+.opinion,
+.latest,
+.story-card {
   border-bottom: 1px solid lightgrey;
 }
 
@@ -119,7 +121,7 @@ nav li a:hover {
 }
 
 .lazysize {
-  width: 100px
+  width: 100px;
 }
 
 .culture-text {
@@ -150,12 +152,6 @@ nav li a:hover {
   height:500px;
 }
 
-.stickyy {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  height:00px;
-}
 .icon-n {
   -webkit-flex: none;
   flex: none;
@@ -176,9 +172,9 @@ nav li a:hover {
 }
 
 .signup {
-width: 130px;
-background: #666666;
-color: white;
+  width: 130px;
+  background: #666666;
+  color: white;
 }
 
 .more, .side {
@@ -187,24 +183,19 @@ color: white;
 
 .world{
   position: absolute;
-  background:white;
+  background: white;
   background-position: 0 0;
-  top:0;
- 
+  top:0; 
 }
 
 .magazine {
   border-bottom: 1px solid lightgrey; 
 }
 
-/* .magazine-footer {
-  height: 20px;
-} */
-
 .cover {
-width:80px;
-border:0;
-font-size: 20px;
+  width: 80px;
+  border: 0;
+  font-size: 20px;
 }
 
 .b-cover {
@@ -213,11 +204,11 @@ font-size: 20px;
 }
 
 .cover-img {
-  height: 330px;
- 
+  height: 330px; 
 }
 
-.culture,.last-articule-text{
+.culture,
+.last-articule-text {
   color: #f72210;
 }
 
@@ -238,7 +229,7 @@ font-size: 20px;
   background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png);
   background-repeat: no-repeat;
   background-position: center center;
-background-size: cover; 
+  background-size: cover; 
   overflow: hidden;
 }
 
@@ -247,8 +238,7 @@ background-size: cover;
 }
 
 .jumbo-img {
-  margin-left: -65px
-
+  margin-left: -65px;
 }
 
 .sides {
@@ -259,15 +249,13 @@ background-size: cover;
 font-size: 15px;
 }
 
-
-
 .news {
   width: 200px;
   height: 50px;
 }
 
 .socials {
-  margin-top:65px;
+  margin-top: 65px;
 }
 
 .news-date {
@@ -290,6 +278,7 @@ li{
   list-style: none;
 }
 
-.media-title, .card-title {
-  font-weight:bold;
+.media-title,
+.card-title {
+  font-weight: bold;
 }
